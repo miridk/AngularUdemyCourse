@@ -11,6 +11,7 @@ import { RlistComponent } from './recipebook/rlist/rlist.component';
 import { RdetailComponent } from './recipebook/rdetail/rdetail.component';
 import { RitemComponent } from './recipebook/rlist/ritem/ritem.component';
 import { SeditComponent } from './shoppinglist/sedit/sedit.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SeditComponent } from './shoppinglist/sedit/sedit.component';
     RlistComponent,
     RdetailComponent,
     RitemComponent,
-    SeditComponent
+    SeditComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
